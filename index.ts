@@ -9,3 +9,6 @@ import TweetWeb from "./src/TweetWeb";
     console.log(await tweetWeb.getPost('https://x.com/notelonmuskkkk/status/1728682129289040278', 20000));
     console.log(await tweetWeb.getPost('https://twitter.com/H_umdard/status/1728683855044063363'));
 })();
+
+
+export default TweetWeb;
