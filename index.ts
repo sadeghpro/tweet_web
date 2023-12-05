@@ -1,4 +1,5 @@
 import TweetWeb from "./src/TweetWeb";
+import Tweet from "./src/Tweet";
 
 (async () => {
     const tweetWeb = await TweetWeb.create({
@@ -12,3 +13,4 @@ import TweetWeb from "./src/TweetWeb";
 
 
 export default TweetWeb;
+export {Tweet};
