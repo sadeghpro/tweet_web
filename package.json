@@ -1,6 +1,6 @@
 {
     "name": "tweet_web",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
@@ -13,7 +13,7 @@
         "url": "http://github.com/sadeghpro/"
     },
     "scripts": {
-        "start": "nodemon index.ts",
+        "start": "nodemon test.ts",
         "build": "tsup"
     },
     "license": "MIT",
